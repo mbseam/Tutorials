@@ -1,4 +1,5 @@
-package com.mb;
+package com.mb.func;
+
 
 public class Lambda {
 

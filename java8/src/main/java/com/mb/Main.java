@@ -1,19 +1,22 @@
 package com.mb;
 
-import java.time.*;
-import java.time.temporal.ChronoField;
-import java.time.temporal.ChronoUnit;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Set;
+import com.mb.date.DateAndTime;
+import com.mb.func.Functional;
+import com.mb.func.Lambda;
+import com.mb.methodref.AppCall;
+import com.mb.notation.Annotation;
+import com.mb.opt.App;
 
 public class Main {
     public static void main(String[] args) {
 
         Lambda l = new Lambda();
         DateAndTime d = new DateAndTime();
+        Functional func = new Functional();
+        App annotation = new App();
 
-        d.print();
+        annotation.func7();
+
 
     }
 }

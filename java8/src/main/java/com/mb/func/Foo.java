@@ -1,4 +1,4 @@
-package com.mb;
+package com.mb.func;
 
 @FunctionalInterface
 interface Foo{
